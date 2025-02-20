@@ -1,0 +1,3 @@
+# Ruby Instance Variable Modification Through Getter Method
+
+This repository demonstrates an uncommon issue in Ruby related to modifying instance variables through getter methods.  The example shows that directly assigning a value to the getter method (`my_object.value = 30`) does not modify the instance variable (`@value`). This is because the getter method (`value`) is simply returning the value, not assigning it.  The solution demonstrates the correct way to modify the instance variable.
